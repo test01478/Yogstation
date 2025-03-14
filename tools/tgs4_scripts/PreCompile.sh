@@ -49,7 +49,7 @@ apt-get install -y lib32z1 pkg-config libssl-dev:i386 libssl-dev
 #update rust-g
 if [ ! -d "rust-g" ]; then
 	echo "Cloning rust-g..."
-	git clone https://github.com/yogstation13/rust-g
+	git clone https://github.com/tgstation/rust-g
 	cd rust-g
 	~/.cargo/bin/rustup target add i686-unknown-linux-gnu
 else
